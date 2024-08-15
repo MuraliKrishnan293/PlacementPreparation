@@ -1,0 +1,380 @@
+[
+  {
+    "question": "Python is known as:",
+    "options": [
+      {
+        "text": "A compiled language",
+        "isCorrect": false
+      },
+      {
+        "text": "An interpreted language",
+        "isCorrect": true
+      },
+      {
+        "text": "A machine language",
+        "isCorrect": false
+      },
+      {
+        "text": "An assembly language",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which version of Python removed the print statement?",
+    "options": [
+      {
+        "text": "Python 1.x",
+        "isCorrect": false
+      },
+      {
+        "text": "Python 2.x",
+        "isCorrect": false
+      },
+      {
+        "text": "Python 3.x",
+        "isCorrect": true
+      },
+      {
+        "text": "Python 4.x",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a valid Python comment?",
+    "options": [
+      {
+        "text": "<!-- -->",
+        "isCorrect": false
+      },
+      {
+        "text": "/* */",
+        "isCorrect": false
+      },
+      {
+        "text": "#",
+        "isCorrect": true
+      },
+      {
+        "text": "//",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Python is a:",
+    "options": [
+      {
+        "text": "Low-level language",
+        "isCorrect": false
+      },
+      {
+        "text": "High-level language",
+        "isCorrect": true
+      },
+      {
+        "text": "Middle-level language",
+        "isCorrect": false
+      },
+      {
+        "text": "Machine-level language",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these data types does Python not natively support?",
+    "options": [
+      {
+        "text": "Lists",
+        "isCorrect": false
+      },
+      {
+        "text": "Tuples",
+        "isCorrect": false
+      },
+      {
+        "text": "Arrays",
+        "isCorrect": true
+      },
+      {
+        "text": "Dictionaries",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is a mutable data type in Python?",
+    "options": [
+      {
+        "text": "String",
+        "isCorrect": false
+      },
+      {
+        "text": "Tuple",
+        "isCorrect": false
+      },
+      {
+        "text": "List",
+        "isCorrect": true
+      },
+      {
+        "text": "Integer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What data type would you use to store a whole number in Python?",
+    "options": [
+      {
+        "text": "int",
+        "isCorrect": true
+      },
+      {
+        "text": "float",
+        "isCorrect": false
+      },
+      {
+        "text": "str",
+        "isCorrect": false
+      },
+      {
+        "text": "bool",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is not a Python built-in data type?",
+    "options": [
+      {
+        "text": "dict",
+        "isCorrect": false
+      },
+      {
+        "text": "array",
+        "isCorrect": true
+      },
+      {
+        "text": "set",
+        "isCorrect": false
+      },
+      {
+        "text": "frozenset",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What will be the data type of the variable x after this assignment:\n\nx = 3.5?",
+    "options": [
+      {
+        "text": "int",
+        "isCorrect": false
+      },
+      {
+        "text": "float",
+        "isCorrect": true
+      },
+      {
+        "text": "str",
+        "isCorrect": false
+      },
+      {
+        "text": "complex",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which of the following is an immutable data type?",
+    "options": [
+      {
+        "text": "Lists",
+        "isCorrect": false
+      },
+      {
+        "text": "Dictionaries",
+        "isCorrect": false
+      },
+      {
+        "text": "Tuples",
+        "isCorrect": true
+      },
+      {
+        "text": "Sets",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet:\n\nprint(type(\"Hello, World!\"))",
+    "options": [
+      {
+        "text": "<class 'str'>",
+        "isCorrect": true
+      },
+      {
+        "text": "<class 'int'>",
+        "isCorrect": false
+      },
+      {
+        "text": "<class 'list'>",
+        "isCorrect": false
+      },
+      {
+        "text": "<class 'dict'>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What does the following code output:\n\nx = [1, 2, 3];\nprint(type(x) == list)",
+    "options": [
+      {
+        "text": "TRUE",
+        "isCorrect": true
+      },
+      {
+        "text": "FALSE",
+        "isCorrect": false
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "None",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What will be the output of the following pseudocode?\n\nInitialize x as 10;\nIf x is of type int,\nprint \"Integer\"\nelse\nprint \"Not Integer\"",
+    "options": [
+      {
+        "text": "Integer",
+        "isCorrect": true
+      },
+      {
+        "text": "Not Integer",
+        "isCorrect": false
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "None",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Pseudocode:\n\nVariable\nx = \"Python\";\nCheck if x is a string,\nif yes\nprint \"String\",\notherwise\n\"Not a String\"",
+    "options": [
+      {
+        "text": "String",
+        "isCorrect": true
+      },
+      {
+        "text": "Not a String",
+        "isCorrect": false
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "None",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Evaluate this pseudocode:\n\nSet x = [1, 2, 3];\nIf x is a list, print length of x, else print \"Not a list\"",
+    "options": [
+      {
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "text": "Not a list",
+        "isCorrect": false
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Identify the error in this code:\n\nx = [1, 2, 3];\nprint(x)",
+    "options": [
+      {
+        "text": "Syntax error in variable x",
+        "isCorrect": false
+      },
+      {
+        "text": "Missing parenthesis in print",
+        "isCorrect": false
+      },
+      {
+        "text": "Missing bracket in x",
+        "isCorrect": false
+      },
+      {
+        "text": "No error",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Find the mistake:\n\nx = (1, 2, 3);\nx[1] = 4;\nprint(x)",
+    "options": [
+      {
+        "text": "Tuples are immutable",
+        "isCorrect": true
+      },
+      {
+        "text": "x[1] should be x[2]",
+        "isCorrect": false
+      },
+      {
+        "text": "Syntax error",
+        "isCorrect": false
+      },
+      {
+        "text": "No error",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which function is used to read input from the console in Python?",
+    "options": [
+      {
+        "text": "input()",
+        "isCorrect": true
+      },
+      {
+        "text": "read()",
+        "isCorrect": false
+      },
+      {
+        "text": "scan()",
+        "isCorrect": false
+      },
+      {
+        "text": "get()",
+        "isCorrect": false
+      }
+    ]
+  }
+]
