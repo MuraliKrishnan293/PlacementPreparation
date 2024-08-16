@@ -13,7 +13,7 @@ app.listen(PORT, () => {
 
 
 app.use("/app", require("./routes/User"));
-app.use("/app", require("./routes/PythonQn"));
+app.use("/app", require("./routes/McqRoutes"));
 
 try {
   mongoDBURL =
